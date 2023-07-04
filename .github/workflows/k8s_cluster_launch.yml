@@ -2,9 +2,7 @@
 
 name: Launching K8s cluster
 
-on:
-  pull_request:
-    branches: [ main ]
+on: [workflow_dispatch]
 
 jobs:
   ansible-lint:
